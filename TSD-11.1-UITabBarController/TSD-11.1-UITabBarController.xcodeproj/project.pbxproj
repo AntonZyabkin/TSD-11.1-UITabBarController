@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8DCA1B92854E546000596ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA1B82854E546000596ED /* AppDelegate.swift */; };
+		E8DCA1BB2854E546000596ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA1BA2854E546000596ED /* SceneDelegate.swift */; };
+		E8DCA1BD2854E546000596ED /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA1BC2854E546000596ED /* TimeViewController.swift */; };
+		E8DCA1C02854E546000596ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1BE2854E546000596ED /* Main.storyboard */; };
+		E8DCA1C22854E548000596ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1C12854E548000596ED /* Assets.xcassets */; };
+		E8DCA1C52854E548000596ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1C32854E548000596ED /* LaunchScreen.storyboard */; };
+		E8DCA1CD2854E590000596ED /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA1CC2854E590000596ED /* AlarmViewController.swift */; };
+		E8DCA1CF2854E5C8000596ED /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA1CE2854E5C8000596ED /* StopWatchViewController.swift */; };
+		E8DCA1D12854E5D0000596ED /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA1D02854E5D0000596ED /* TimerViewController.swift */; };
+		E8DCA1D42854E758000596ED /* Time.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1D22854E758000596ED /* Time.storyboard */; };
+		E8DCA1D62854E7A0000596ED /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1D52854E7A0000596ED /* Alarm.storyboard */; };
+		E8DCA1D92854E7C4000596ED /* StopWatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1D72854E7C4000596ED /* StopWatch.storyboard */; };
+		E8DCA1DB2854E807000596ED /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA1DA2854E807000596ED /* Timer.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8DCA1B52854E546000596ED /* TSD-11.1-UITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSD-11.1-UITabBarController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DCA1B82854E546000596ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8DCA1BA2854E546000596ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8DCA1BC2854E546000596ED /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		E8DCA1BF2854E546000596ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8DCA1C12854E548000596ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8DCA1C42854E548000596ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8DCA1C62854E548000596ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DCA1CC2854E590000596ED /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		E8DCA1CE2854E5C8000596ED /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
+		E8DCA1D02854E5D0000596ED /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		E8DCA1D32854E758000596ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "TSD-11.1-UITabBarController/Base.lproj/Time.storyboard"; sourceTree = "<group>"; };
+		E8DCA1D52854E7A0000596ED /* Alarm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
+		E8DCA1D82854E7C4000596ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "TSD-11.1-UITabBarController/Base.lproj/StopWatch.storyboard"; sourceTree = "<group>"; };
+		E8DCA1DA2854E807000596ED /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DCA1B22854E546000596ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8DCA1AC2854E546000596ED = {
+			isa = PBXGroup;
+			children = (
+				E8DCA1D22854E758000596ED /* Time.storyboard */,
+				E8DCA1D52854E7A0000596ED /* Alarm.storyboard */,
+				E8DCA1D72854E7C4000596ED /* StopWatch.storyboard */,
+				E8DCA1DA2854E807000596ED /* Timer.storyboard */,
+				E8DCA1B72854E546000596ED /* TSD-11.1-UITabBarController */,
+				E8DCA1B62854E546000596ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DCA1B62854E546000596ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCA1B52854E546000596ED /* TSD-11.1-UITabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DCA1B72854E546000596ED /* TSD-11.1-UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCA1B82854E546000596ED /* AppDelegate.swift */,
+				E8DCA1BA2854E546000596ED /* SceneDelegate.swift */,
+				E8DCA1BC2854E546000596ED /* TimeViewController.swift */,
+				E8DCA1CC2854E590000596ED /* AlarmViewController.swift */,
+				E8DCA1CE2854E5C8000596ED /* StopWatchViewController.swift */,
+				E8DCA1D02854E5D0000596ED /* TimerViewController.swift */,
+				E8DCA1BE2854E546000596ED /* Main.storyboard */,
+				E8DCA1C12854E548000596ED /* Assets.xcassets */,
+				E8DCA1C32854E548000596ED /* LaunchScreen.storyboard */,
+				E8DCA1C62854E548000596ED /* Info.plist */,
+			);
+			path = "TSD-11.1-UITabBarController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8DCA1B42854E546000596ED /* TSD-11.1-UITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DCA1C92854E548000596ED /* Build configuration list for PBXNativeTarget "TSD-11.1-UITabBarController" */;
+			buildPhases = (
+				E8DCA1B12854E546000596ED /* Sources */,
+				E8DCA1B22854E546000596ED /* Frameworks */,
+				E8DCA1B32854E546000596ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSD-11.1-UITabBarController";
+			productName = "TSD-11.1-UITabBarController";
+			productReference = E8DCA1B52854E546000596ED /* TSD-11.1-UITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DCA1AD2854E546000596ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E8DCA1B42854E546000596ED = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E8DCA1B02854E546000596ED /* Build configuration list for PBXProject "TSD-11.1-UITabBarController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8DCA1AC2854E546000596ED;
+			productRefGroup = E8DCA1B62854E546000596ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8DCA1B42854E546000596ED /* TSD-11.1-UITabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DCA1B32854E546000596ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DCA1C52854E548000596ED /* LaunchScreen.storyboard in Resources */,
+				E8DCA1D42854E758000596ED /* Time.storyboard in Resources */,
+				E8DCA1D92854E7C4000596ED /* StopWatch.storyboard in Resources */,
+				E8DCA1C22854E548000596ED /* Assets.xcassets in Resources */,
+				E8DCA1D62854E7A0000596ED /* Alarm.storyboard in Resources */,
+				E8DCA1DB2854E807000596ED /* Timer.storyboard in Resources */,
+				E8DCA1C02854E546000596ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DCA1B12854E546000596ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DCA1CD2854E590000596ED /* AlarmViewController.swift in Sources */,
+				E8DCA1BD2854E546000596ED /* TimeViewController.swift in Sources */,
+				E8DCA1B92854E546000596ED /* AppDelegate.swift in Sources */,
+				E8DCA1BB2854E546000596ED /* SceneDelegate.swift in Sources */,
+				E8DCA1D12854E5D0000596ED /* TimerViewController.swift in Sources */,
+				E8DCA1CF2854E5C8000596ED /* StopWatchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8DCA1BE2854E546000596ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DCA1BF2854E546000596ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DCA1C32854E548000596ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DCA1C42854E548000596ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DCA1D22854E758000596ED /* Time.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DCA1D32854E758000596ED /* Base */,
+			);
+			name = Time.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DCA1D72854E7C4000596ED /* StopWatch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DCA1D82854E7C4000596ED /* Base */,
+			);
+			name = StopWatch.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DCA1C72854E548000596ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8DCA1C82854E548000596ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8DCA1CA2854E548000596ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TSD-11.1-UITabBarController/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton.TSD-11-1-UITabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8DCA1CB2854E548000596ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TSD-11.1-UITabBarController/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton.TSD-11-1-UITabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DCA1B02854E546000596ED /* Build configuration list for PBXProject "TSD-11.1-UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DCA1C72854E548000596ED /* Debug */,
+				E8DCA1C82854E548000596ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DCA1C92854E548000596ED /* Build configuration list for PBXNativeTarget "TSD-11.1-UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DCA1CA2854E548000596ED /* Debug */,
+				E8DCA1CB2854E548000596ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8DCA1AD2854E546000596ED /* Project object */;
+}
